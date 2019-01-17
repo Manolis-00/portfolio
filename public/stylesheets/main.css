@@ -1,3 +1,18 @@
+i {
+    color: cornflowerblue;
+}
+
+button {
+    color: cornflowerblue !important;
+    border-color: cornflowerblue !important;
+    border-radius: 90% !important;
+}
+
+button:hover {
+    background-color: cornflowerblue !important;
+    color: white !important;
+}
+
 h1 {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
@@ -8,6 +23,10 @@ h4 {
     font-family: 'Thasadith', sans-serif;
     margin-bottom: 1.5rem;
     font-size: 1.5rem; !important;
+}
+
+#main {
+    border: 0px !important;
 }
 
 .render {

@@ -3,14 +3,7 @@ i {
 }
 
 button {
-    color: cornflowerblue !important;
-    border-color: cornflowerblue !important;
-    border-radius: 90% !important;
-}
-
-button:hover {
-    background-color: cornflowerblue !important;
-    color: white !important;
+    border-radius: 50px !important;
 }
 
 h1 {
@@ -29,6 +22,17 @@ h4 {
     border: 0px !important;
 }
 
+.icon {
+    margin-top: 8rem;
+    height: 100%;
+    width: 100%;
+    line-height: 1.5;
+}
+
+.hero {
+    color: cornflowerblue;
+}
+
 .render {
     width: auto;
     max-width: 85%;
@@ -41,5 +45,23 @@ h4 {
     max-width: 100%;
     border-radius: 50%;
     margin-top: 2.5rem;
+}
+
+.intro {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.summary {
+    padding: 150px;
+}
+
+.summary h3 {
+    font-size: 2.5rem;
+}
+
+.summary p {
+    font-size: 1.3rem;
+    max-width: 95%;
 }
 

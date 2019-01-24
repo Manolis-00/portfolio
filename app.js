@@ -14,6 +14,10 @@ app.get("/", function(req, res){
     res.render("landing");
 });
 
+app.get("/contact", function(req, res){
+    res.render("contact");
+});
+
 
 app.listen(3000, function(){
     console.log("Server has started!!!")

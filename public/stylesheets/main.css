@@ -22,6 +22,10 @@ ul {
     list-style: none;
 }
 
+form {
+    margin-bottom: 2rem;
+}
+
 #main {
     border: 0px !important;
 }
@@ -127,6 +131,10 @@ ul {
     margin-left: 1%;
 }
 
+.fields {
+    margin-left: 27% !important;
+}
+
 figure.figurefx {
     width: 600px;
     margin: 30px auto;
@@ -202,6 +210,5 @@ figure.pushup:hover figcaption{
 }
 
 div a:hover {
-    transform: translate3d(0, -20px, 0);
     opacity: .5;
 }
